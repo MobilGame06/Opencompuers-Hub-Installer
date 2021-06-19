@@ -16,4 +16,8 @@ progs.reactorcontrol = {}
 progs.reactorcontrol.id = "YjP1yCBn"
 progs.reactorcontrol.file = "/bin/reactorControl.lua"
  
+progs.test = {}
+progs.test.id = "https://github.com/MobilGame06/Opencompuers-Hub-Installer/blob/main/programs/test.lua"
+progs.test.file = "/home/lol.lua"
+
 return progs
