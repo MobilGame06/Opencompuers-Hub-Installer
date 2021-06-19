@@ -8,5 +8,4 @@ progs.nfcwriter = {}
 progs.nfcwriter.id = "https://github.com/MobilGame06/opencomputers-NFC-Tools/blob/main/write.lua"
 progs.nfcwriter.file = "/usr/nfcwriter.lua"
 
-
 return progs
