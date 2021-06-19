@@ -1,11 +1,12 @@
 # Opencomputers-Hub-Installer
 This is the installer of all Opencomputers Porgrams by Opencomputers Hub
 
+[Wiki](https://github.com/MobilGame06/Opencomputers-Hub-Installer/wiki) 
+
 # Installation
 <pre><code>pastebin run MvsWUSY8 
 </code></pre>
 # Usage
-
 
 
 # Requirements
