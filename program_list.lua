@@ -5,7 +5,7 @@ progs.test.id = "https://raw.githubusercontent.com/MobilGame06/Opencompuers-Hub-
 progs.test.file = "/home/lol.lua"
 
 progs.nfcwriter = {}
-progs.nfcwriter.id = "https://github.com/MobilGame06/opencomputers-NFC-Tools/blob/main/write.lua"
+progs.nfcwriter.id = "https://raw.githubusercontent.com/MobilGame06/opencomputers-NFC-Tools/main/write.lua"
 progs.nfcwriter.file = "/usr/nfcwriter.lua"
 
 return progs
