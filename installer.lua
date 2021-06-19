@@ -7,7 +7,7 @@ local gpu = comp.gpu
 
 os.execute("wget 'https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/program_list.lua' /lib/OpencompuersHubInstallerList.lua")
 package.loaded.BrainInstallerList = nil
-local list = require("OpencompuersHubInstallerList")
+local list = require("OpencomputersHubInstallerList")
 
 mX = 100
 mY = 40
