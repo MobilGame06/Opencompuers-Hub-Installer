@@ -9,7 +9,7 @@ progs.nfcwriter.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputer
 progs.nfcwriter.file = "/usr/bin/nfcwriter.lua"
 
 progs.nfcreader = {}
-progs.nfcreader.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/write.lua"
+progs.nfcreader.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/nfcreader.lua"
 progs.nfcreader.file = "/usr/bin/nfcreader.lua"
 
 return progs
