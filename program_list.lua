@@ -5,7 +5,11 @@ progs.test.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub
 progs.test.file = "/home/lol.lua"
 
 progs.nfcwriter = {}
-progs.nfcwriter.id = "https://raw.githubusercontent.com/MobilGame06/opencomputers-NFC-Tools/main/write.lua"
+progs.nfcwriter.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/nfcwriter.lua"
 progs.nfcwriter.file = "/usr/bin/nfcwriter.lua"
+
+progs.nfcreader = {}
+progs.nfcreader.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/write.lua"
+progs.nfcreader.file = "/usr/bin/nfcreader.lua"
 
 return progs
