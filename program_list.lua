@@ -12,4 +12,8 @@ progs.nfcreader = {}
 progs.nfcreader.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/nfcreader.lua"
 progs.nfcreader.file = "/usr/bin/nfcreader.lua"
 
+progs.dns = {}
+progs.dns.id = "https://raw.githubusercontent.com/MobilGame06/OpenDNS/main/dns/install.lua"
+progs.dns.file = "/home/install-dns.lua"
+
 return progs
