@@ -16,4 +16,8 @@ progs.dns = {}
 progs.dns.id = "https://raw.githubusercontent.com/MobilGame06/OpenDNS/main/dns/install.lua"
 progs.dns.file = "/home/install-dns.lua"
 
+progs.printer = {}
+progs.printer.id = "https://raw.githubusercontent.com/MobilGame06/oc-printer/main/installer.lua"
+progs.printer.file = "/home/install-printer.lua"
+
 return progs
