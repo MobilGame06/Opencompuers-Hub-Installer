@@ -20,4 +20,8 @@ progs.printer = {}
 progs.printer.id = "https://raw.githubusercontent.com/MobilGame06/oc-printer/main/installer.lua"
 progs.printer.file = "/home/install-printer.lua"
 
+progs.freememory = {}
+progs.freememory.id = "https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/programs/freememory.lua"
+progs.freememory.file = "/usr/bin/freememory.lua"
+
 return progs
