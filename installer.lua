@@ -1,11 +1,14 @@
 local term = require("term")
-
+local fs = require("filesystem")
 term.clear()
 
 print("Choose what to install.")
 print("[1] Och-Installer-GUI")
 print("[2] Och-Installer-CMD")
 local input = io.read()
+
+
+fs.makeDirectory("/usr/bin") 
 
 if input == "1" then
 os.execute("wget 'https://raw.githubusercontent.com/MobilGame06/Opencomputers-Hub-Installer/main/installerGui.lua' /usr/bin/och_installer.lua")

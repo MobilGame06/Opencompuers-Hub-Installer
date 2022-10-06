@@ -12,14 +12,15 @@ package.loaded.BrainInstallerList = nil
 local list = require("OpencomputersHubInstallerList")
 
 local args, options = shell.parse(...)
+if #args < 1 then
+    io.write("---------------------------------- \n")
+    io.write("Usage: och_installer_cmd [package] \n")
+    io.write("---------------------------------- \n")
+    return
+  end
 options.q = options.q or options.Q
 local prog = text.trim(args[1])
 prog = prog:lower()
-
-if prog < 1 then
-    io.write("Usage: och_installer_cmd [package] \n")
-    return
-  end
 
 print(prog)
 local dl = list[prog]
