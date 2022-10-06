@@ -1,4 +1,3 @@
-local comp = require("component")
 local term = require("term")
 local computer = require("computer")
 local shell = require("shell")
@@ -17,11 +16,16 @@ options.q = options.q or options.Q
 local prog = text.trim(args[1])
 prog = prog:lower()
 
+if #args < 1 then
+    io.write("Usage: och_installer_cmd [package] \n")
+    return
+  end
+
 print(prog)
 local dl = list[prog]
 
 if not list[prog] then
-    term.write("Unknown packacke \n")
+    term.write("Unknown package \n")
     computer.beep(1000,0.15)
     os.sleep(1)
     os.exit()
