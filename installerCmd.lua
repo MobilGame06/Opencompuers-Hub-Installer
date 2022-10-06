@@ -16,7 +16,7 @@ options.q = options.q or options.Q
 local prog = text.trim(args[1])
 prog = prog:lower()
 
-if #args < 1 then
+if prog < 1 then
     io.write("Usage: och_installer_cmd [package] \n")
     return
   end
